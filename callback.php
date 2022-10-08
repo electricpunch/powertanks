@@ -48,6 +48,13 @@ if ($sig != md5($str.$secret_key)) {
           'photo_url' => 'https://electricpunch.net/powertanks/coin.png',
           'price' => 15
         );
+      } elseif ($item == 'premium') {
+        $response['response'] = array(
+          'item_id' => 30,
+          'title' => 'Полная версия',
+          'photo_url' => 'https://electricpunch.net/powertanks/full.png',
+          'price' => 5
+        );
       } else {
         $response['error'] = array(
           'error_code' => 20,
@@ -80,6 +87,13 @@ if ($sig != md5($str.$secret_key)) {
           'title' => '40,000 монет (тестовый режим)',
           'photo_url' => 'https://electricpunch.net/powertanks/coin.png',
           'price' => 15
+        );
+      } elseif ($item == 'premium') {
+        $response['response'] = array(
+          'item_id' => 130,
+          'title' => 'Полная версия (тестовый режим)',
+          'photo_url' => 'https://electricpunch.net/powertanks/full.png',
+          'price' => 5
         );
       } else {
         $response['error'] = array(
