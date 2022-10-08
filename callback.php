@@ -31,28 +31,28 @@ if ($sig != md5($str.$secret_key)) {
         $response['response'] = array(
           'item_id' => 25,
           'title' => '10,000 монет',
-          'photo_url' => 'https://electricpunch.net/powertanks/coin.png',
+          'photo_url' => 'https://raw.githubusercontent.com/electricpunch/powertanks/main/coin.png',
           'price' => 5
         );
       } elseif ($item == 'coins_pack_2') {
         $response['response'] = array(
           'item_id' => 27,
           'title' => '20,000 монет',
-          'photo_url' => 'https://electricpunch.net/powertanks/coin.png',
+          'photo_url' => 'https://raw.githubusercontent.com/electricpunch/powertanks/main/coin.png',
           'price' => 8
         );
       } elseif ($item == 'coins_pack_3') {
         $response['response'] = array(
           'item_id' => 29,
           'title' => '40,000 монет',
-          'photo_url' => 'https://electricpunch.net/powertanks/coin.png',
+          'photo_url' => 'https://raw.githubusercontent.com/electricpunch/powertanks/main/coin.png',
           'price' => 15
         );
       } elseif ($item == 'premium') {
         $response['response'] = array(
           'item_id' => 30,
           'title' => 'Полная версия',
-          'photo_url' => 'https://electricpunch.net/powertanks/full.png',
+          'photo_url' => 'https://raw.githubusercontent.com/electricpunch/powertanks/main/full.png',
           'price' => 5
         );
       } else {
@@ -71,28 +71,28 @@ if ($sig != md5($str.$secret_key)) {
         $response['response'] = array(
           'item_id' => 125,
           'title' => '10,000 монет (тестовый режим)',
-          'photo_url' => 'https://electricpunch.net/powertanks/coin.png',
+          'photo_url' => 'https://raw.githubusercontent.com/electricpunch/powertanks/main/coin.png',
           'price' => 5
         );
       } elseif ($item == 'coins_pack_2') {
         $response['response'] = array(
           'item_id' => 127,
           'title' => '20,000 монет (тестовый режим)',
-          'photo_url' => 'https://electricpunch.net/powertanks/coin.png',
+          'photo_url' => 'https://raw.githubusercontent.com/electricpunch/powertanks/main/coin.png',
           'price' => 8
         );
       } elseif ($item == 'coins_pack_3') {
         $response['response'] = array(
           'item_id' => 129,
           'title' => '40,000 монет (тестовый режим)',
-          'photo_url' => 'https://electricpunch.net/powertanks/coin.png',
+          'photo_url' => 'https://raw.githubusercontent.com/electricpunch/powertanks/main/coin.png',
           'price' => 15
         );
       } elseif ($item == 'premium') {
         $response['response'] = array(
           'item_id' => 130,
           'title' => 'Полная версия (тестовый режим)',
-          'photo_url' => 'https://electricpunch.net/powertanks/full.png',
+          'photo_url' => 'https://raw.githubusercontent.com/electricpunch/powertanks/main/full.png',
           'price' => 5
         );
       } else {
